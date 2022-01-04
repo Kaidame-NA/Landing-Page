@@ -5,7 +5,7 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
-.header, .section1 {
+.header, .section1, .footer{
 	display: flex;
 	flex-direction: row;
 	background-color: #1F2937;
@@ -175,3 +175,10 @@ button {
 	border-color: white;
 	border-style: solid;
 }
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	padding: 50px;
