@@ -5,7 +5,7 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
-.header {
+.header, .section1 {
 	display: flex;
 	flex-direction: row;
 	background-color: #1F2937;
@@ -31,4 +31,39 @@ a {
 	color: #E5E7EB;
 	size: 18px;
 	text-decoration: none;
+}
+
+.section1 {
+	gap: 50px;
+}
+
+.right {
+	display: flex;
+	flex-direction: column;
+	max-width: 35%;
+}
+
+.right h1 {
+	margin: 0px;
+	font-size: 48px;
+	font-weight: 800;
+	color: #F9FAF8;
+}
+
+.right p {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+.right button {
+	width: 100px;
+	height: 40px;
+	border-radius: 10px;
+	color: white;
+	background-color: #3882F6;
+	border: 0px;
+}
+
+.section1 img{
+	flex: 1;
 }
