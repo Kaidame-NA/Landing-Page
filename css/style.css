@@ -56,13 +56,16 @@ a {
 	font-size: 18px;
 	color: #E5E7EB;
 }
-
-.right button {
+button {
 	width: 100px;
 	height: 40px;
 	border-radius: 10px;
 	color: white;
 	background-color: #3882F6;
+	font-weight: bold;
+}
+
+.right button {
 	border: 0px;
 }
 
@@ -103,6 +106,7 @@ a {
 	border: 3px;
 	border-color: #3882F6;
 	border-radius: 10px;
+	border-style: solid;
 }
 
 .captioned-image p{
@@ -130,4 +134,44 @@ a {
 	font-size: 24px;
 	margin: 0;
 	font-weight: bold;
+}
+
+.section4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px 220px;
+}
+
+.call-to-action {
+	display: flex;
+	align-items: center;
+	background-color: #3882F6;
+	flex: 1;
+	border-radius: 10px;
+	padding: 50px 100px;
+	justify-content: space-between;
+}
+
+.text{
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.text h5{
+	margin: 0px;
+	color: white;
+	font-size: 24px;
+}
+
+.text p{
+	margin: 0px;
+	color: #E5E7EB;
+}
+
+.call-to-action button{
+	border: 3px;
+	border-color: white;
+	border-style: solid;
 }
